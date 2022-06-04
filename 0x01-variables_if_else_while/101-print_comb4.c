@@ -18,8 +18,8 @@ for (q = e + 1; q <= '9'; q++)
 putchar(w);
 putchar(e);
 putchar(q);
-if (w == 7 && e == 8 && q ==9)
-	continue;
+if (w == '7' && e == '8' && q == '9')
+continue;
 putchar(',');
 putchar(' ');
 }
