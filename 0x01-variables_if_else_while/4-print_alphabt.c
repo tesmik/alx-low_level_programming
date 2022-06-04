@@ -16,5 +16,6 @@ for (w = 'a'; w <= 'z'; w++)
 if (w != e && w != q)
 putchar(w);
 putchar('\n');
+}
 return (0);
 }
