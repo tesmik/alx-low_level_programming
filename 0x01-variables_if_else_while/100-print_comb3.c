@@ -11,13 +11,14 @@ int main(void)
 int d, e;
 for (d = '0'; d <= '8'; d++)
 {
-for (e=d++; e <= '9'; e++)
 putchar(d);
-putchar(e);
-if (d !=0)
+for (e = d++; e <= '9'; e++)
+{putchar(e);
+if (d != 0)
 {
 putchar(',');
 putchar(' ');
+}
 }
 }
 putchar('\n');
