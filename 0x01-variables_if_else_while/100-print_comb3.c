@@ -15,11 +15,10 @@ for (e = d + 1; e <= '9'; e++)
 {
 putchar(d);
 putchar(e);
-if (d != '8' && e != '9')
-{
+if (d == '8' && e == '9')
+continue;
 putchar(',');
 putchar(' ');
-}
 }
 }
 putchar('\n');
