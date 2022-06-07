@@ -9,7 +9,7 @@ void print_to_98(int n)
 {
 int x;
 
-if(n < 99)
+if (n < 99)
 {
 for (x = n; x < 99; x++)
 {
