@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * times_table - prints time
+ * jack_bauer - prints time
  *
  * Return: always 0 (success)
  */
@@ -10,7 +10,7 @@ int x, y;
 
 for (x = 0; x < 24; x++)
 {
-for(y = 0; y < 60; y++)
+for (y = 0; y < 60; y++)
 {
 _putchar((x / 10) + '0');
 _putchar((x % 10) + '0');
