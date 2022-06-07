@@ -4,7 +4,7 @@
  *
  * Return: always 0 (success)
  */
-void times_table(void)
+void jack_bauer(void)
 {
 int x, y;
 
