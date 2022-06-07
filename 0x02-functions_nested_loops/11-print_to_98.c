@@ -23,10 +23,12 @@ continue;
 else
 {
 for (x = n; x > 97; n--)
+{
 printf("%d", x);
 if (x != 98)
 printf(", ");
 else
 continue;
+}
 }
 }
