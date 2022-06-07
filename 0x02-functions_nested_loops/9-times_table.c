@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *times_table - prints time table
+ * times_table - prints time table
  *
- * Return: always 0. 
+ * Return: always 0.
  */
 void times_table(void)
 {
@@ -19,12 +19,13 @@ else
 _putchar(((x * y) / 10) + '0');
 _putchar(((x * y) % 10) + '0');
 }
-if(y != 9)
+if (y != 9)
 {
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
 }
 }
+_putchar('\n');
 }
 }
