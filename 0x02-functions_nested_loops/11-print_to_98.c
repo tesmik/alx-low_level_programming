@@ -7,10 +7,10 @@
  */
 void print_to_98(int n)
 {
-for (n = 1; n < 99; n++)
+for (int x = n; x < 99; x++)
 {
-printf("%d",n);
-if (n != 98)
+printf("%d", x);
+if (x != 98)
 printf(", ");
 else
 continue;
