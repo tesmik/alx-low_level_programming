@@ -12,16 +12,12 @@ for (x = 0; x < 24; x++)
 {
 for(y = 0; y < 60; y++)
 {
-z= x % 10;
-i = x / 10;
-m = y / 10;
-n = y % 10;
-_putchar(i + '0');
-_putchar(z + '0');
+_putchar((x / 10) + '0');
+_putchar((x % 10) + '0');
 _putchar(':');
-_putchar(m + '0');
-_putchar(n + '0');
-}
+_putchar((y / 10) + '0');
+_putchar((y % 10) + '0');
 _putchar('\n');
+}
 }
 }
