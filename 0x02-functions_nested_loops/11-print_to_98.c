@@ -22,7 +22,7 @@ continue;
 }
 else
 {
-for (x = n; x > 97; n--)
+for (x = n; x > 97; x--)
 {
 printf("%d", x);
 if (x != 98)
@@ -31,4 +31,5 @@ else
 continue;
 }
 }
+printf("\n");
 }
