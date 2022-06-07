@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * -isalpha - check the letter
+ * _isalpha - check the letter
  *@c letter being tested
  *  Return: alwasy 0 (success)
  */
