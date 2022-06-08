@@ -12,25 +12,23 @@ for (x = 0; x < 10; x++)
 {
 for (y = 0; y < 10; y++)
 {
-if ((x * y) < 10)
+if ((x * y) < 10 && (y != 0)
 {
-_putchar((x * y) + '0');
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
+_putchar((x * y) + '0');
 }
 else if ((x * y) > 9)
 {
-_putchar(((x * y) / 10) + '0');
-_putchar(((x * y) % 10) + '0');
 _putchar(',');
 _putchar(' ');
+_putchar(((x * y) / 10) + '0');
+_putchar(((x * y) % 10) + '0');
 }
 else
 {
 _putchar((x * y) + '0');
-_putchar(',');
-_putchar(' ');
 }
 }
 _putchar('\n');
