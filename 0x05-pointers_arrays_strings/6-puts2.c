@@ -8,12 +8,7 @@ void puts2(char *str)
 int i;
 i = 0;
 
-while (s[i] != '\0')
-{
-i++;
-}
-x = 0;
-while (x < y)
+while (str[i] != '\0')
 {
 if ((i % 2) == 0)
 _putchar(str[a]);
