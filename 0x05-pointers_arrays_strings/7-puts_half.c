@@ -8,6 +8,7 @@ void puts_half(char *str)
 int ct, even, neg;
 
 for (ct = 0; str[ct] != '\0'; ct++)
+	;
 if ((ct % 2) == 0)
 {
 for (even = ct / 2; str[even] != '\0'; even++)
