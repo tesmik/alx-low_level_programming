@@ -19,5 +19,5 @@ else
 for (neg = (ct - 1) / 2; str[neg] != '\0'; neg++)
 _putchar(str[neg + 1]);
 }
-_putchatr('\n');
+_putchar('\n');
 }
