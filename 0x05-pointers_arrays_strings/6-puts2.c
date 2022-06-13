@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- *rev_string - reverses a string
- *@s: string being reversed
+ *puts2 - reverses a string
+ *@str: string being reversed
  */
-void rev_string(char *s)
+void puts2(char *str)
 {
-int i, x, y, c;
+int i;
 i = 0;
 
 while (s[i] != '\0')
@@ -13,13 +13,11 @@ while (s[i] != '\0')
 i++;
 }
 x = 0;
-y = i - 1;
 while (x < y)
 {
-c = s[x];
-s[x] = s[y];
-s[y] = c;
-x++;
-y--;
+if ((i % 2) == 0)
+_putchar(str[a]);
+a++;
 }
+_putchar('\n');
 }
