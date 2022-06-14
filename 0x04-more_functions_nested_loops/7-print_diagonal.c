@@ -11,13 +11,11 @@ int k, j;
 if (n > 0){
 for (j = 0; j < n; j++)
 {
-for (k = 0; k <= j; k++)
+for (k = 0; k < j; k++)
 {
-if (k == j)
-_putchar('\\');
-else
 _putchar(' ');
 }
+_putchar('\\');
 _putchar('\n');
 }
 }
