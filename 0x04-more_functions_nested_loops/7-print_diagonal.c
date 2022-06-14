@@ -14,7 +14,7 @@ for (j = 0; j < n; j++)
 for (k = 0; k <= j; k++)
 {
 if (k == j)
-_putchar('\');
+_putchar('\\');
 else
 _putchar(' ');
 }
