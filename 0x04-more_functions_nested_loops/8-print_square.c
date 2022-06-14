@@ -13,7 +13,8 @@ if (size > 0)
 {
 for (k = 0; k < size; k++)
 {
-for(j = 0; j < size; j++)
+_putchar('#');
+for(j = 1; j < size; j++)
 {
 _putchar('#');
 }
