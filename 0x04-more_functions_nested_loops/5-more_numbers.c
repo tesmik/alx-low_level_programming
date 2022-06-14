@@ -12,9 +12,10 @@ for (j = 0; j < 10; j++)
 {
 for (k = 0; k < 14; k++)
 {
-_putchar(k + '0');
+if (k > 9)
+_putchar((k / 10) + '0');
+_putchar((k % 10) +'0');
 }
 _putchar('\n');
 }
-_putchar('\n');
 }
