@@ -9,16 +9,18 @@ int main(void)
 {
 int j;
 
-for (j = 1; j <= 100; j++)
+printf("1");
+for (j = 2; j <= 100; j++)
 {
 if (((j % 3) == 0) && ((j % 5) == 0))
-printf("FizzBuzz ");
+printf(" FizzBuzz");
 else if ((j % 3) == 0)
-printf("Fizz ");
+printf(" Fizz");
 else if ((j % 5) == 0)
-printf("Buzz ");
+printf(" Buzz");
 else
-printf("%d ", j);
+printf(" %d", j);
 }
+printf("\n");
 return (0);
 }
