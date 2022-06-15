@@ -19,6 +19,5 @@ n[i] = replacer[x / 2];
 x = 9;
 }
 }
-}
 return (n);
 }
