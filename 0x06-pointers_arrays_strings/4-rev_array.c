@@ -1,4 +1,4 @@
-#include "main.
+#include "main"
 /**
  * reverse_array - a function that reverses the content of an array of int
  * @a: content
