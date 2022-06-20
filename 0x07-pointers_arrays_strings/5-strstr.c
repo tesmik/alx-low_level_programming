@@ -1,9 +1,11 @@
 #include "main.h"
+#include "stdio.h"
 /**
  *_strstr - prints searching string
  *@haystack: strings being  
  *@needle: string being tested
  *Return: always 0.
+ *or NULL if substring is not found
  */
 char *_strstr(char *haystack, char *needle)
 {
