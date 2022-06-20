@@ -1,4 +1,5 @@
 #include "main.h"
+#include "stdio.h"
 /**
  *_strspn - print first string
  *@s: copy to
@@ -14,6 +15,7 @@ while (*s)
 {
 flag = 0;
 while (*accept)
+{
 if (*accept == *s)
 {
 count++;
