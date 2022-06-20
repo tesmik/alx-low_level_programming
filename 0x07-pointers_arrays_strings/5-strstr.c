@@ -5,7 +5,6 @@
  *@haystack: strings being
  *@needle: string being tested
  *Return: return the string
- *or NULL if substring is not found
  */
 char *_strstr(char *haystack, char *needle)
 {
