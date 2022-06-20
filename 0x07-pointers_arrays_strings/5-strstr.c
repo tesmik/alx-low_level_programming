@@ -1,5 +1,5 @@
 #include "main.h"
-#include "stdio.h"
+#include <stdio.h>
 /**
  *_strstr - prints searching string
  *@haystack: strings being
