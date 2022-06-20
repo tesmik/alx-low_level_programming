@@ -1,7 +1,7 @@
 #include "main.h"
 #include "stdio.h"
 /**
- * _memcpy - prints 
+ * _memcpy - prints
  * @dest: string tested
  * @src: string being tested
  * @n: size of array
