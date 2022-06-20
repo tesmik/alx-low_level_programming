@@ -21,5 +21,6 @@ accept++;
 }
 accept = tmp;
 s++;
+}
 return (NULL);
 }
