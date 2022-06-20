@@ -2,7 +2,7 @@
 #include "stdio.h"
 /**
  *_strstr - prints searching string
- *@haystack: strings being  
+ *@haystack: strings being
  *@needle: string being tested
  *Return: always 0.
  *or NULL if substring is not found
