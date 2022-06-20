@@ -1,4 +1,5 @@
 #include "main.h"
+#include "stdio,h"
 /**
  *_strpbrk - prints the string
  *@s: copy to
