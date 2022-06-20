@@ -20,7 +20,7 @@ while (*haystack == *needle)
 haystack++;
 needle++;
 }
-if (needle == '\0')
+if (*needle == '\0')
 return (haystack);
 haystack = tmp1 + 1;
 }
