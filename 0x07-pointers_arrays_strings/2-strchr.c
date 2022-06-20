@@ -1,4 +1,5 @@
 #include "main.h"
+#include "stdio.h"
 /**
  *_strchr - search aa word
  *@s: copy to
@@ -14,7 +15,5 @@ if (c == *s)
 return (s);
 s++;
 }
-if (c == *s)
-return (s);
 return (NULL);
 }
