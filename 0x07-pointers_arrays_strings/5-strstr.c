@@ -4,12 +4,13 @@
  *_strstr - prints searching string
  *@haystack: strings being
  *@needle: string being tested
- *Return: always 0.
+ *Return: return the string
  *or NULL if substring is not found
  */
 char *_strstr(char *haystack, char *needle)
 {
-char *tmp1 = haystack, *tmp2 = needle;
+char *tmp1 = haystack;
+char *tmp2 = needle;
 
 while (*haystack)
 {
