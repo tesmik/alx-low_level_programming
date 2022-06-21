@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-/*
+/**
  *print_diagsums - print diagonal sum
  *@a: square matrix
  *@size: size of integers
