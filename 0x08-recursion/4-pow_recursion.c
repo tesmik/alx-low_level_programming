@@ -5,7 +5,7 @@ int squareroot(int n, int i);
  * @n: input
  * Return: Always 0 (Success)
  */
-int _sqrt_recursion(int n)
+int _pow_recursion(int n)
 {
 if (n < 0)
 return (-1);
