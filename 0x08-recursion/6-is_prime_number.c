@@ -18,7 +18,7 @@ return (0);
  * @n: input to check
  * @i: n / 2, then passes to i - 1, checks if greater than 0
  * Return: prime check
- */ 
+ */
 int prime_checker(int n, int i)
 {
 if (i == 1)
