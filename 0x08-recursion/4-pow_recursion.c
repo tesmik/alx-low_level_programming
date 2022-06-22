@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *pow_recursion - Entry point
+ *_pow_recursion - Entry point
  * @x: input one
  * @y: input two
  * Return: Always 0 (Success)
