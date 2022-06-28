@@ -4,7 +4,7 @@
  *argstostr - concacnates all argument
  *@ac: number of argument
  *@av:array of pointer for argument
- *Retuen:0.
+ *Return: 0.
  */
 char *argstostr(int ac, char **av)
 {
