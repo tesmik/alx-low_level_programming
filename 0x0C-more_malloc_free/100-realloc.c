@@ -15,6 +15,7 @@ unsigned int index;
 if (new_size == old_size)
 return (ptr);
 if (ptr == NULL)
+{
 mem = malloc(new_size);
 if (mem == NULL)
 return (NULL);
